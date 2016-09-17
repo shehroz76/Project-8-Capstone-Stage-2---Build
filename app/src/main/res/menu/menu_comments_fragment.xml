@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort_posts"
+        android:icon="@drawable/ic_action_content_sort_dark"
+        android:title="@string/action_sort_posts"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/action_sort_best"
+                android:title="@string/action_sort_best" />
+
+            <item
+                android:id="@+id/action_sort_top"
+                android:title="@string/action_sort_top" />
+            <item
+                android:id="@+id/action_sort_new"
+                android:title="@string/action_sort_new" />
+
+            <item
+                android:id="@+id/action_sort_controversial"
+                android:title="@string/action_sort_controversial" />
+
+            <item
+                android:id="@+id/action_sort_old"
+                android:title="@string/action_sort_old" />
+        </menu>
+
+    </item>
+</menu>

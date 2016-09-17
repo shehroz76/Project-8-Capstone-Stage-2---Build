@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">RedditTime</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_parsing">There was an error while parsing the API response.</string>
+    <string name="front_page">Front Page</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_sort_hot">Hot</string>
+    <string name="action_sort_rising">Rising</string>
+    <string name="action_sort_new">New</string>
+    <string name="action_sort_controversial">Controversial</string>
+    <string name="action_sort_top">Top</string>
+    <string name="action_sort_gilded">Gilded</string>
+    <string name="action_sort_best">Best</string>
+    <string name="action_sort_old">Old</string>
+    <string name="action_upvote">Upvote</string>
+    <string name="action_downvote">Downvote</string>
+    <string name="action_comments">Comments</string>
+    <string name="action_view">View</string>
+    <string name="action_more">More</string>
+    <string name="action_sort_posts">Sort posts</string>
+    <string name="action_go_to_subreddit">Go to subreddit</string>
+    <string name="action_go_to_favs">My Favourites</string>
+    <string name="action_go">Go</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_manage_subreddits">Manage subreddits</string>
+    <string name="action_done">Done</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_share">Share</string>
+    <string name="action_hide">Hide</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_deselect_all">Deselect all</string>
+    <string name="loading">Loading…</string>
+    <string name="hint_subreddit_name">Subreddit name</string>
+    <string name="error_subreddit_name_required">Error! Subreddit name is required.</string>
+    <string name="error_atleast_one_selected_subreddit">Error! You must select at least one subreddit.</string>
+    <string name="error_not_authorized">Error! You are not authorized to perform this action.</string>
+    <string name="success_subreddit_preferences_updated">Success! Subreddit preferences updated successfully.</string>
+    <string name="success_logged_in_base">Success! Logged in as\u0020</string>
+    <string name="success_post_link_copied_to_clipboard">Post link copied to clipboard.</string>
+    <string name="success_user_session_refreshed">User session refreshed. Use a vertical swipe gesture to refresh the contents of the current view.</string>
+    <string name="label_selected_subreddits">Selected Subreddits</string>
+    <string name="label_fetching_subreddits">Fetching subreddits…</string>
+    <string name="label_logging_in">Logging in…</string>
+    <string name="label_points">points</string>
+    <string name="label_comments">comments</string>
+    <string name="label_no_comments">No comments posted yet…</string>
+    <string name="label_share_via">Share via:</string>
+    <string name="solid_circle_symbol">•</string>
+    <string name="label_refreshing_user_session">Refreshing user session…</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="appwidget_text">MyReddit Widget</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

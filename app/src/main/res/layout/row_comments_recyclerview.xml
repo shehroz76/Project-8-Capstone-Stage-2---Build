@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/child_comment_indicator"
+            android:layout_width="@dimen/child_comment_indicator_width"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/spacing_tiny"
+            android:layout_marginEnd="@dimen/spacing_tiny"
+            android:background="@color/divider" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/buttons_container_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/previous_parent_comment_button"
+                    style="@style/ButtonCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/action_previous" />
+
+                <Button
+                    android:id="@+id/next_parent_comment_button"
+                    style="@style/ButtonCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/action_next" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/spacing_7dp"
+                android:paddingEnd="@dimen/spacing_7dp"
+                android:paddingRight="@dimen/spacing_7dp"
+                android:paddingStart="@dimen/spacing_7dp"
+                android:paddingTop="@dimen/spacing_7dp">
+
+                <TextView
+                    android:id="@+id/author_textview"
+                    style="@style/TextCaptionSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    style="@style/TextCaptionSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_tiny"
+                    android:layout_marginRight="@dimen/spacing_tiny"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:layout_marginEnd="@dimen/spacing_tiny"
+                    android:text="@string/solid_circle_symbol" />
+
+                <TextView
+                    android:id="@+id/score_textview"
+                    style="@style/TextCaptionSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/TextCaptionSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_tiny"
+                    android:layout_marginRight="@dimen/spacing_tiny"
+                    android:layout_marginStart="@dimen/spacing_tiny"
+                    android:layout_marginEnd="@dimen/spacing_tiny"
+                    android:text="@string/solid_circle_symbol" />
+
+                <TextView
+                    android:id="@+id/created_textview"
+                    style="@style/TextCaptionSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/body_textview"
+                style="@style/TextBodyNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/spacing_7dp"
+                android:paddingLeft="@dimen/spacing_7dp"
+                android:paddingStart="@dimen/spacing_7dp"
+                android:paddingEnd="@dimen/spacing_7dp"
+                android:paddingRight="@dimen/spacing_7dp" />
+
+            <LinearLayout
+                android:id="@+id/buttons_container_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/upvote_button"
+                    style="@style/ButtonCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/action_upvote" />
+
+                <Button
+                    android:id="@+id/downvote_button"
+                    style="@style/ButtonCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/action_downvote" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
